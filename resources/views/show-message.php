@@ -1,0 +1,1 @@
+<h1>This is from View/show-message page!</h1>
