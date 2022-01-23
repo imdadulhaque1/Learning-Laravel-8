@@ -8,7 +8,7 @@ class ContollerSite extends Controller
 {
     public function showMessage(){
         echo "<h1>From Controller page</h1>";
-        return view("show-message");
+        return view("show-message"); 
     }
 
 }
