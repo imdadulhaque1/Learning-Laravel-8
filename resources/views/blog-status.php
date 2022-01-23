@@ -1,0 +1,1 @@
+<h1>This is Blog Status Bar page!</h1>
