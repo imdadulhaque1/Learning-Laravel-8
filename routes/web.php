@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContollerSite;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ControllerAbout;
+use App\Http\Controllers\TeamController;
 
 
 /*
@@ -24,3 +25,4 @@ Route::get('/', function () {
 Route::get("/show-message", [ContollerSite::class, "showMessage"]);
 Route::get("/blog-status", [BlogController::class, "BlogStatus"]);
 Route::get("/about", [ControllerAbout::class, "About"]);
+Route::get('/team-members', [TeamController::class, "ourTeam"]);
